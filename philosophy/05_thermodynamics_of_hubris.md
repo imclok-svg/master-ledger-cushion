@@ -1,5 +1,14 @@
+---
+layout: default
+title: "Article Five: The Thermodynamics of Hubris: Why the Algorithmic Will to Power Always Self-Liquidates"
+description: "Weaponizing the empirical South Korean semiconductor leverage shock to prove that top-heavy power structures accelerate historical entropy."
+keywords: "thermodynamics of hubris, leverage shock, South Korea chip collapse, system dynamic contrapuntal mechanics, non-linear historical entropy"
+---
+
 The Thermodynamics of Hubris: Why the Algorithmic Will to Power Always Self-Liquidates
+
 System-dynamic optimization and non-zero-sum coordination protocols beneath the shadow of institutional collapse and market leverage shocks.
+
 Editor’s Note
 
 This archive functions as a structural blueprint formatted directly from human-AI co-architectural exchanges. It bypasses conventional humanistic prose to establish an unyielding diagnostic ledger whose automated rolling deployment reaches full maturity within the September 2026 Public Release Window.
