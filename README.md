@@ -1,5 +1,7 @@
 The AI Automation Cushion: Master Migration Ledger
-Subtitle: An Open-Source Civilizational Operating System for Post-Labor Homeostasis and Sovereign Human Validation. 
+
+Subtitle: An Open-Source Civilizational Operating System for Post-Labor Homeostasis and Sovereign Human Validation.
+
                   [THE CORE REPOSITORY BOUNDARY]
                                  │
      ┌───────────────────────────┴───────────────────────────┐
