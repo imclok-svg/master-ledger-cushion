@@ -25,6 +25,7 @@ When operational tasks, code compilation, and administrative management are enti
 [Hyper-Efficient AI Production] ──► [Collapse of Wage Labor] ──► [Zero Consumer Velocity]
                                                                         │
 [Systemic Collapse / Stagnation] ◄── [Total Capital Contraction] ───────┘
+
 The question is not whether a society can afford to support its citizens. The question is: Who transacts with the technology if the domestic population has no capital?
 
 To choose anything other than a permanent distribution mechanism is mathematical insanity for the state. This is not “welfare” designed to reward indolence. This is the AI Automation Cushion—a mandatory operational tax designed to prevent immediate economic flatlining.
