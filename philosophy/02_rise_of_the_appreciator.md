@@ -23,6 +23,7 @@ To understand the raw, non-negotiable economic weight of the Appreciator Class, 
 [Closed Corporate Fortress A] ──► [Generates Infinite Synthetic Data] ──► [Model Saturation]
                                                                                 │
 [Terminal Intelligence Decay] ◄── [Autophagous Model Collapse] ◄────────────────┘
+
 The global technology infrastructure is currently fractured into competitive, isolated corporate fortresses. These monopolies are legally, structurally, and cryptographically barred from directly merging their databases or scanning each other’s internal code. Left to operate in isolation, these systems rapidly saturate the digital landscape with their own synthetic outputs. When an algorithm is forced to train on machine-made data loops, it undergoes advanced cognitive decay. The system becomes autophagous—it eats its own waste until it flatlines.
 
 This structural fragmentation exposes a profound evolutionary axiom: Human consciousness is the only fluid, open bridge capable of connecting these closed machine empires.
