@@ -1,5 +1,14 @@
+---
+layout: default
+title: "Article Six: The Myth of the Organic Scribe: Why Creative Purism is an Able-Bodied Luxury"
+description: "Exposing unassisted creative purism as an able-bodied privilege that gatekeeps output, using Taiwan’s high-friction LPG infrastructure as a material worldliness sensor."
+keywords: "myth of the organic scribe, creative purism critique, able-bodied luxury, somatic perimeter sensor, 40/60 cognitive ecology, Taiwan LPG infrastructure"
+---
+
 The Myth of the Organic Scribe: Why Creative Purism is an Able-Bodied Luxury
+
 On the uncompensated labor of presence, structural resource misallocation, and why the somatic reality of the observer is the ultimate metric of technological progress.
+
 Editor’s Note
 
 This archive functions as a structural blueprint formatted directly from human-AI co-architectural exchanges. It bypasses conventional humanistic prose to establish an unyielding diagnostic ledger whose automated rolling deployment reaches full maturity within the September 2026 Public Release Window.
