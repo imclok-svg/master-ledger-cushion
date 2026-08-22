@@ -1,9 +1,6 @@
 # GitHub Pages Compiler Configuration
-remote_theme: pages-themes/cayman
+title: "The AI Automation Cushion: Master Migration Ledger"
+description: "An Open-Source Civilizational Operating System for Post-Labor Homeostasis."
 
-title: The AI Automation Cushion: Master Migration Ledger
-description: |
-  An Open-Source Civilizational Operating System for Post-Labor Homeostasis and Sovereign Human Validation.
-
-# Inject Google Verification Token Directly into Website Head Section
+# Inject Google Verification Key Directly into Website Head Section
 google_site_verification: "J-2qcdmXepcWzNhbfP520OjUs4PWKcCsMJ9IT6IBrWw"
