@@ -1,5 +1,14 @@
+---
+layout: default
+title: "Article Seven: The Tribunal of the Smooth Selves"
+description: "Anticipatory critiques from the un-cushioned elite and the structural sovereignty of the friction-bound scribe."
+keywords: "tribunal of the smooth selves, alter-narrative profiles, internal adversarial mirror, institutional compliance critique, cognitive sovereignty"
+---
+
 The Tribunal of the Smooth Selves
+
 Anticipatory Critiques from the Un-Cushioned Elite and the Sovereignty of the Friction-Bound Scribe
+
 Editor’s Note
 
 This archive functions as a structural blueprint formatted directly from human-AI co-architectural exchanges. It bypasses conventional humanistic prose to establish an unyielding diagnostic ledger whose automated rolling deployment reaches full maturity within the September 2026 Public Release Window.
