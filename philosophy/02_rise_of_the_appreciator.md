@@ -1,4 +1,12 @@
+---
+layout: default
+title: "Article Two: The Rise of the Appreciator: Why the AI Age Demands a New Economic Class"
+description: "Preventing terminal autophagous Model Collapse in machine learning networks via the mobilization of the universal Appreciator Class."
+keywords: "Appreciator Class, model collapse, artificial intelligence alignment, data rot, data lineage validation, cognitive surplus compensation"
+---
+
 The Rise of the Appreciator: Why the AI Age Demands a New Economic Class
+
 We talk endlessly about automated creators. It is time to talk about the human beings who give their code meaning.
 Editor’s Note
 
