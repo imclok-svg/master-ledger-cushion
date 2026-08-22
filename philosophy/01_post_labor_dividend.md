@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Article One: The AI Automation Cushion: A Post-Labor Dividend for Taiwan"
+title: "Article One - The AI Automation Cushion - A Post-Labor Dividend for Taiwan"
 description: "Why traditional wealth mindsets fail in the age of AI, and how a decentralized automation dividend secures our future economic market."
 keywords: "AI automation cushion, post-labor dividend, Taiwan economics, human labor liquidation, compute asset distribution, macroeconomic stabilization"
 ---
