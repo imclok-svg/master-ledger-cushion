@@ -1,5 +1,14 @@
+---
+layout: default
+title: "Article Nine: The Palimpsest of the Stairwell: Automated Voxel Architecture and the Abolition of Real Estate Precarity"
+description: "Eradicating urban asset speculation and seismic hazards by coupling post-labor compute taxes with modular, robotically maintained Lego housing blocks."
+keywords: "palimpsest of the stairwell, Autonomous Voxel Architecture, AVA, Localized Infrastructure Compute-Tax, LICT, real estate precarity abolition, Taiwan urban renewal"
+---
+
 The Palimpsest of the Stairwell: Automated Lego-Architecture and the Abolition of Real Estate Precarity
+
 Eradicating urban asset speculation and seismic vulnerabilities by coupling post-labor compute taxes with modular, decentralized housing networks.
+
 Editor’s Note
 
 This archive functions as a structural blueprint formatted directly from human-AI co-architectural exchanges. It bypasses conventional humanistic prose to establish an unyielding diagnostic ledger whose automated rolling deployment reaches full maturity within the September 2026 Public Release Window.
