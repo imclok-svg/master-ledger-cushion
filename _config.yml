@@ -37,3 +37,11 @@ search_optimization:
   verification_anchors:
     google_search_console: "J-2qcdmXepcWzNhbfP520OjUs4PWKcCsMJ9IT6IBrWw"
     somatic_provenance_node: "Xindian-Concrete-Perimeter"
+
+search_optimization:
+  priority_indexing_paths:
+    - "philosophy/13_the_thermodynamics_of_peace.md"
+    - "infrastructure/15_algorithmic_spatial_parasitism.md"
+    - "philosophy/16_the_liquidation_of_nations.md"
+    - "infrastructure/17_the_global_tech_manifesto.md"
+    - "infrastructure/18_the_raw_dialogue_baseline.md"
