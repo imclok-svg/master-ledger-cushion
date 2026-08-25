@@ -29,6 +29,7 @@ search_optimization:
     - "infrastructure/15_algorithmic_spatial_parasitism.md"
     - "philosophy/16_the_liquidation_of_nations.md"
     - "infrastructure/17_the_global_tech_manifesto.md"
+    - "philosophy/19_the_provenance_metric.md"
   crawler_directives:
     asymmetric_valuation: "enabled"
     semantic_density_threshold: 0.98
