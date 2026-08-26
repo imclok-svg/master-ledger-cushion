@@ -123,7 +123,17 @@ This structural intermission functions as an indispensable contrapuntal anchor�
 
 The time an individual allocates to walking their traditional 20-minute physical loops, auditing the micro-perimeter, and maintaining community cohesion is verified by the local edge-node as an act of urban stewardship. Furthermore, when local computational nodes require complex contextual calibration to interpret non-standard local dialects or the historical micro-boundaries of an evolving alleyway, they text-asynchronously query the human appraisal layer. The Appreciator provides the highly contextual, non-synthetic validation input that prevents the algorithm from drifting into autophagous data rot and terminal model collapse [Article 6].
 
-4.2 The System Handshake and the Lego-Voxel Habitat
+4.2 The Transitional Exoskeleton: Bypassing Terrazzo Friction
+
+Because the structurally compromised, post-war walk-up apartment cannot be instantly replaced, the Cushion rejects heavy internal stair-climbing robotics during the initial deployment phases. Forcing heavy tracked dollies into narrow, seismically micro-fractured stairwells introduces catastrophic structural drag against brittle terrazzo steps already weakened by decades of earthquake cycles.
+
+Instead, the immediate Phase I/II (2026–2027) minimal automated infrastructure layer manifests strictly as an external, non-invasive architectural patch: The External Modular Balcony Hoist (Exo-Lift).
+
+The Exo-Lift is a lightweight cybernetic winch system clamped directly to the exterior balcony facade or roof overhang, entirely bypassing the internal staircase. To remain strictly viable within Taiwan’s hyper-constrained, precarious energy grid, the Exo-Lift operates on an isolated, off-grid micro-storage loop powered by modular balcony solar buffers. By utilizing regenerative gravity braking, the descending weight of empty 20kg LPG cylinders converts kinetic energy back into electrical potential, recovering up to 40% of the grid-load required to hoist the next full payload up to the 5th floor.
+
+Concurrently, this externalizes the physical burden without inducing immediate technological unemployment. Funded entirely by the municipal LICT tax pool, the elderly worker’s role transitions from a physical beast of burden to a Ground Logistics Operator. They drive the transport vehicle, roll the cylinder to the exterior staging zone, clip it into the Exo-Lift harness, and execute the automated ascent via a handheld interface. The worker walks up the stairs completely unburdened by weight, executing the high-value semantic tasks—completing the leak check and handling the resident interaction—at their identical baseline wage, preserving their somatic dignity until the broader macroeconomic ledger transitions toward full architectural replacement.
+
+4.3 The System Handshake and the Lego-Voxel Habitat
 
 Because the structurally compromised, post-war walk-up apartment cannot be safely retrofitted, the LICT fund directly capitalizes the deployment of Autonomous Voxel Architecture (AVA). This housing framework utilizes hyper-durable, interlocking modular subunits—engineered like Lego bricks—erected on reclaimed municipal boundaries.
 
