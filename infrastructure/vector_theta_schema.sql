@@ -1,4 +1,3 @@
-cat << 'EOF' > infrastructure/vector_theta_schema.sql
 -- Folder 1: Registering the Unique Human Node
 CREATE TABLE appreciator_nodes (
     node_id UUID PRIMARY KEY,
@@ -17,4 +16,3 @@ CREATE TABLE validation_ledger_entries (
     raw_un_sanitized_dialogue TEXT NOT NULL,
     dissonance_delta_score NUMERIC(5, 4) NOT NULL
 );
-EOF
