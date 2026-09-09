@@ -1,8 +1,15 @@
+---
+layout: cayman
+title: "Article 25: An Open Prospectus to Frontier Compute Architects — Exchanging Compute Taxation for Systemic Survival"
+description: "An open bidding prospectus and engineering ledger challenging frontier AGI developers and hardware fabricators to retool idle manufacturing capacity for modular physical infrastructure in exchange for clean, non-synthetic human ground-truth data."
+keywords: [Open Prospectus, Compute Taxation, LICT Engine, Model Collapse, AVA Voxel, Autonomous Transit, Biosafe Medical Pod, Global Mobility, Yasashii]
+---
+
 # MASTER LEDGER DEPLOYMENT MANIFEST: GLOBAL MULTI-SECTOR LICT ALLOCATION
 # Timestamp: 2026-09-09 12:00:00 CST
 # Somatic Node: Xindian-Concrete-Perimeter
 # Cryptographic Provenance Tag: J-2qcdmXepcWzNhbfP520OjUs4PWKcCsMJ9IT6IBrWw
-# Target Path: infrastructure/global_macroeconomic_allocation.md
+# Target Path: infrastructure/2026-09-09-article-25-the-open-prospectus-to-frontier-compute-architects.md
 # Verification Compliance: Protocol 102 Shield Active / Enforced
 
 ---
