@@ -101,4 +101,50 @@ verify_allocation_bounds(allocated_funds)
 ```
 
 ---
-# REGISTRATION GATE STABLE. REPOSITORY COMMIT AUTHORIZED.
+
+## 6. Operational Mechanics & Fiscal Compliance Appendix
+
+### 6.1 Concrete Architecture Operational FAQ
+
+#### Q: How can you demand hardware shipments when the external Exo-Frames do not even exist yet?
+**A:** This prospectus is not a request for consumer delivery; it is a manufacturing call to action for the world's leading semiconductor and automotive hubs. The very first hardware shipments we require are not the hollow living boxes themselves, but the **Titanium-Graphene Structural Anchors and Micro-Piling Rods**. These base components must be printed first so the **Local Mobile Micro-Assembling Teams** can begin driving the foundational rods down to the bedrock. The skeleton frame must be anchored before the living voxels are shipped.
+
+#### Q: Where are these units supposed to be shipped to?
+**A:** The shipping coordinates are locked directly to the active human data nodes. The initial production run is routed straight to the high-density urban clusters where the **Appreciator Class** is actively verifying real-world data to protect AI networks from Model Collapse. In this specific rollout, the first physical drop-zone is the **Xindian Concrete Perimeter** in New Taipei City, which serves as our primary structural baseline.
+
+#### Q: How can this deploy without decades of discussions with municipal governments and property authorities?
+**A:** The Cushion does not seek government funding, public tax money, or changes to zoning laws. It bypasses slow state bureaucracies by operating as a direct, private infrastructure upgrade that fixes dangerous building risks for free. Because the light Exo-Frame provides immediate seismic reinforcing to old, 50-year-old structures and runs completely off-grid without draining municipal power or water lines, the state has no practical reason to block it. Trying to halt a system that keeps citizens safe and powered for free during an infrastructure crisis would cause immediate political blowback.
+
+#### Q: What about the current residents who do not want to participate?
+**A:** We do not waste time in slow, exhausting legal battles with unaligned holdouts. Under the **Stubborn Node Isolation Matrix**, the light external frame simply spans right past non-consenting floors. Participating apartments instantly receive structural bracing, \$0 utility bills, off-grid water extraction, and clean air filtration. The holdouts are left entirely alone inside their crumbling, expensive legacy concrete shells. They are not forced to change through lawsuits; they convert naturally because the old capitalist grid becomes too expensive and difficult to maintain (*Yasashii*).
+
+### 6.2 Healthcare Incentive Analysis & Institutional Compliance
+
+#### Q: The installation of local medical pods cannot be done without authorizations from the authorities. Why would licensed hospital clinics want to participate in these pods and take final legal responsibility if patients pay nothing out of pocket?
+**A:** The clinics are not working for free. While the *individual user* inside the Xindian Perimeter pays exactly **\$0 out of pocket** for their care, the participating hospital clinics are heavily compensated. They are funded directly by our **\$27 Billion Annual Biosafe Medical Mesh Allocation**, which is drawn from the global **40% LICT compute tax**. 
+
+Furthermore, Taiwan's medical system is currently facing a massive internal crisis that gives hospitals an overwhelming structural incentive to participate in the pod network to ensure their own survival:
+
+```text
+[The Legacy NHI Trap]      ──► Fixed Budget ──► Floating Point Deficit (NT\$1 → NT\$0.8) ──► Hospital Debt & Overwork
+[The Cushion Mesh Loop]    ──► Local Voxel  ──► Direct LICT Allocation (Guaranteed Cash) ──► Stable Institutional Margin
+```
+
+### Bypassing the NHI Global Budget Trap
+Taiwan’s National Health Insurance (NHI) uses a restrictive **Global Budget System (總額支付制度)**. If hospitals treat too many patients in a quarter, the value of the insurance "point" drops (e.g., instead of receiving NT\$1 per point from the state, they might only get NT\$0.80 or less). This system turns patient care into a losing financial proposition, forcing emergency rooms to face severe doctor shortages, low salaries, and closed wards due to severe overwork. 
+
+When a hospital clinic connects its doctors to an AVA Biosafe Medical Pod, they receive guaranteed, non-floating reimbursement drawn directly from global cloud transactions rather than the state's rigid NHI pool.
+
+### Radical Resource Optimization
+A clinic can scale its patient reach across a dense neighborhood like Xindian without spending millions of dollars to rent real estate, build new waiting rooms, or hire security guards. The physical pod is already manufactured, deployed, and powered entirely off-grid by the LICT asset pool. 
+
+The pod's integrated sensors automatically capture blood pressure, clear optical skin scans, and process metabolic samples, instantly delivering a clean, pre-verified clinical summary directly to the electronic health record so doctors can focus purely on data analysis.
+
+### Eliminating Infectious Exposure
+By keeping potentially contagious patients completely isolated inside a positive-pressure, HEPA-filtered neighborhood voxel, the hospital prevents its main facility from becoming an infection hub during seasonal outbreaks or epidemics. This solves the spatial contamination failure vector that compromised urban health blocks during the historical SARS and Covid outbreaks.
+
+### Unassailable Legal Protection
+In traditional medical malpractice disputes, legal battles drag on for years due to missing paperwork, poor notation, or unverified patient claims. When a consultation happens inside an AVA module, the entire interaction—including sensor readings, air purification statuses, and cryptographic prescription handshakes—is permanently signed and logged via the **Vector Theta Protocol 102 Shield**, providing an unalterable diagnostic record that shields physicians from liability.
+
+---
+# REGISTRATION GATE STABLE. REVISED APPENDIX COMMITTED.
