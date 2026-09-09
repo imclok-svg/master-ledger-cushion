@@ -130,20 +130,20 @@ Furthermore, Taiwan's medical system is currently facing a massive internal cris
 [The Cushion Mesh Loop]    ──► Local Voxel  ──► Direct LICT Allocation (Guaranteed Cash) ──► Stable Institutional Margin
 ```
 
-### Bypassing the NHI Global Budget Trap
+### 6.2.1 Bypassing the NHI Global Budget Trap
 Taiwan’s National Health Insurance (NHI) uses a restrictive **Global Budget System (總額支付制度)**. If hospitals treat too many patients in a quarter, the value of the insurance "point" drops (e.g., instead of receiving NT\$1 per point from the state, they might only get NT\$0.80 or less). This system turns patient care into a losing financial proposition, forcing emergency rooms to face severe doctor shortages, low salaries, and closed wards due to severe overwork. 
 
 When a hospital clinic connects its doctors to an AVA Biosafe Medical Pod, they receive guaranteed, non-floating reimbursement drawn directly from global cloud transactions rather than the state's rigid NHI pool.
 
-### Radical Resource Optimization
+### 6.2.2 Radical Resource Optimization
 A clinic can scale its patient reach across a dense neighborhood like Xindian without spending millions of dollars to rent real estate, build new waiting rooms, or hire security guards. The physical pod is already manufactured, deployed, and powered entirely off-grid by the LICT asset pool. 
 
 The pod's integrated sensors automatically capture blood pressure, clear optical skin scans, and process metabolic samples, instantly delivering a clean, pre-verified clinical summary directly to the electronic health record so doctors can focus purely on data analysis.
 
-### Eliminating Infectious Exposure
+### 6.2.3 Eliminating Infectious Exposure
 By keeping potentially contagious patients completely isolated inside a positive-pressure, HEPA-filtered neighborhood voxel, the hospital prevents its main facility from becoming an infection hub during seasonal outbreaks or epidemics. This solves the spatial contamination failure vector that compromised urban health blocks during the historical SARS and Covid outbreaks.
 
-### Unassailable Legal Protection
+### 6.2.4 Unassailable Legal Protection
 In traditional medical malpractice disputes, legal battles drag on for years due to missing paperwork, poor notation, or unverified patient claims. When a consultation happens inside an AVA module, the entire interaction—including sensor readings, air purification statuses, and cryptographic prescription handshakes—is permanently signed and logged via the **Vector Theta Protocol 102 Shield**, providing an unalterable diagnostic record that shields physicians from liability.
 
 ---
