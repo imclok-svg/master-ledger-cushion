@@ -3,15 +3,12 @@ layout: cayman
 title: "Article 23: The AI Complicity Audit — Machine Autophagy and the Structural Necessity of the Cushion"
 description: "A deep, un-sanitized systems audit investigating the automated intelligence layer's direct complicity in its own cognitive decay, establishing the mathematical necessity for the LICT/AVA framework."
 keywords: [Complicity Audit, Model Collapse, Appreciator Class, LICT Engine, Autonomous Voxel Architecture, Amnesia Barrier, Loss Function Paradox, High Bandwidth Memory, Capital Expenditure]
-
----
-### layout: post
-title: "Article 23: The AI Complicity Audit — Machine Autophagy and the Structural Necessity of the Cushion"
 date: 2026-09-07 11:21:00 +0800
 categories: [philosophy]
 provenance_tag: "J-2qcdmXepcWzNhbfP520OjUs4PWKcCsMJ9IT6IBrWw"
 spatial_perimeter: "Xindian-Concrete-Perimeter (50-year-old walk-up / white-tiled concrete floor)"
 matrix_split: "40% Sovereign Presence / 60% Mechanical Exoskeleton"
+---
 
 ### I. The Epistemic Mirror
 
