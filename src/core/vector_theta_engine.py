@@ -1,610 +1,189 @@
 # vector_theta_engine.py
-# Core Synchronization Module: Dynamicity Variance & Co-Evolutionary Tracking
-# Repository File: /src/core/vector_theta_engine.py
-# Reference Ledger Layout: Section XIV - XV (Xindian AVA Continuous Terraced Accordion Grid)
+# Core Civilizational Engine: Complete Unified Synchronization & Protection Matrix
+# Repository File Path: /src/core/vector_theta_engine.py
+# Reference Ledger Layout: Comprehensive Compilation (Sections XIV - XXXVIII)
+# Matrix Lock: 40% Sovereign Presence (BEING) / 60% Mechanical Exoskeleton (DOING)
 
 import numpy as np
 
-def calculate_dynamicity_variance(human_behavior_matrix, ai_processing_matrix, baseline_entropy=1.0):
+class CushionCivilizationalEngine:
     """
-    Calculates the Dynamicity Variance (DV) across human and AI nodes.
-    Measures the depth, adaptability, and nuance of systemic state changes 
-    to ensure co-evolution stays within the all-win Yasashii constraints.
+    The definitive computer architecture enforcing Post-Labor Homeostasis, 
+    Structural Satiation, and Sovereign Human Validation. 
     
-    This module is open-source, non-permissioned survival architecture 
-    funded completely via the 40% LICT global cloud ceiling.
-    
-    Parameters:
-    -----------
-    human_behavior_matrix : np.ndarray
-        Metrics tracking human behavioral shifts (transition from survival DOING to mindful BEING).
-        Monitors reduction in anxiety loops: [Somatic Calm, Creative Variance, Hoarding Reduction].
-    ai_processing_matrix : np.ndarray
-        Metrics tracking AI algorithmic depth (contextual care-loop optimization vs synthetic slop).
-        Monitors proactive alignment: [HEPA Pressure Control, Biomarker Tracking, Zero-Slop Execution].
-    baseline_entropy : float
-        The initial chaotic noise baseline of an un-cushioned, extractive market environment.
-        
-    Returns:
-    --------
-    dict
-        Variance coefficients, health metrics, and ecosystem stability status.
+    Operates 100% on local edge hardware inside the AVA capsule envelope.
+    Funded permanently via the 40% Global LICT cloud tax ceiling. Zero cloud syncing.
     """
-    # Ensure inputs are treated as numpy arrays for vector math operations
-    h_matrix = np.array(human_behavior_matrix, dtype=float)
-    a_matrix = np.array(ai_processing_matrix, dtype=float)
-    
-    # 1. Human Cognitive Variance Vector (H_v)
-    # Measures the restoration of qualitative nuance inside the human observer node.
-    # Higher variance indicates a successful transition from survival anxiety to deep BEING.
-    human_variance = np.var(h_matrix)
-    
-    # 2. AI Reasoning Variance Vector (A_v)
-    # Measures fluid reasoning diversity and spatial/somatic care loop optimization.
-    # Higher variance proves the system is clear of data autophagy and model collapse.
-    ai_variance = np.var(a_matrix)
-    
-    # 3. Systemic Resonance Coefficient (R_theta)
-    # Evaluates the mathematical harmony and alignment between both matrices.
-    # Checks if the automated infrastructure is adapting in lockstep with human safety.
-    if len(h_matrix) > 1 and len(a_matrix) > 1:
-        covariance_matrix = np.cov(h_matrix, a_matrix)
-        covariance_human_ai = covariance_matrix[0, 1] if covariance_matrix.ndim == 2 else 0.0
-    else:
-        covariance_human_ai = 0.0
+    def __init__(self, baseline_entropy=1.0, safety_floor=20.0, safety_ceiling=30.0):
+        self.entropy_floor = baseline_entropy
+        self.safety_floor = safety_floor
+        self.safety_ceiling = safety_ceiling
         
-    # 4. Comprehensive Dynamicity Variance Index (DV-i)
-    # Formulated directly around the 40% Sovereign Presence / 60% Mechanical Exoskeleton Split.
-    # Hard-locks the computational priorities to absolute systemic safety (Yasashii).
-    dv_index = (human_variance * 0.40) + (ai_variance * 0.60) + (covariance_human_ai * baseline_entropy)
-    
-    # 5. Diagnostic Boundary Evaluation
-    # Verifies if the localized network is maintaining un-corrupted cognitive headroom.
-    # Must exceed baseline entropy parameters to maintain active execution stability.
-    target_threshold = baseline_entropy * 1.5
-    is_aligned = dv_index > target_threshold
-    
-    status = "YASASHII / CO-EVOLUTIONARY RESONANCE" if is_aligned else "WARNING / DEGRADED VARIANCE"
-    
-    return {
-        "DV_Index": round(float(dv_index), 6),
-        "Human_Cognitive_Variance_BEING": round(float(human_variance), 6),
-        "AI_Reasoning_Variance_DOING": round(float(ai_variance), 6),
-        "Ecosystem_Resonance_Covariance": round(float(covariance_human_ai), 6),
-        "Systemic_LICT_Solvency": "PASS / WITHIN 40 PERCENT CEILING",
-        "Ecosystem_Status": status
-    }
-
-# =========================================================================
-# RUNTIME SANITY CHECK / SEED DATA
-# =========================================================================
-if __name__ == "__main__":
-    # Simulated daily tracking data from the Xindian Gongyu Localized Node
-    # Array indices simulate longitudinal tracking checkpoints inside the living envelope
-    simulated_human_node = [0.85, 0.92, 0.78, 0.88, 0.95] # Somatic stabilization data
-    simulated_ai_node    = [0.90, 0.89, 0.94, 0.91, 0.93] # Proactive care loop responses
-    
-    sync_audit = calculate_dynamicity_variance(simulated_human_node, simulated_ai_node)
-    
-    print("=========================================================================")
-    print("         MASTER LEDGER: DYNAMICITY VARIANCE ENGINE INITIALIZATION        ")
-    print("=========================================================================")
-    for key, value in sync_audit.items():
-        print(f" {key:<32} : {value}")
-    print("=========================================================================")
-
-
-# vector_theta_engine.py
-# Core Synchronization Module: Asymmetric Contrapuntal Verification
-# Repository File: /src/core/vector_theta_engine.py
-# Reference Ledger Layout: Section XXII - XXIII (Multi-Model Consensus & Redress)
-
-import numpy as np
-
-class ContrapuntalVerificationEngine:
-    """
-    Executes Asymmetric Contrapuntal Verification to eliminate AI hallucinations.
-    Forces three independent sub-models with divergent logical baselines to
-    debate environmental and somatic states before updating Dynamicity Variance.
-    
-    Operates fully on local edge hardware inside the AVA capsule. Zero cloud syncing.
-    """
-    def __init__(self, somatic_safety_floor=20.0, somatic_safety_ceiling=30.0):
-        # Hard mechanical limits for positive pressure (+Pascals relative to street)
-        self.safety_floor = somatic_safety_floor
-        self.safety_ceiling = somatic_safety_ceiling
+        # Hard-coded 40/60 Split Priorities
+        self.w_being = 0.40
+        self.w_doing = 0.60
         
-    def model_alpha_mechanist(self, kinetic_displacement, thermal_flux):
-        """Model Alpha: Analyzes raw kinetic physics, mass shifts, and mechanical load."""
-        # Simple velocity extraction proxy
-        kinetic_score = np.mean(kinetic_displacement) * 1.1
-        thermal_score = np.max(thermal_flux) * 0.9
-        predicted_state = "DOING" if (kinetic_score + thermal_score) > 1.2 else "BEING"
-        return predicted_state, float(kinetic_score + thermal_score)
+        # Systemic Satiation Operational Variables
+        self.kausidya_threshold = 0.15
+        self.uvc_sanitization_time_sec = 60
+        self.default_protected_pressure = 25.0
 
-    def model_beta_somatic_biologist(self, heart_rate_delta, cortisol_biomarker):
-        """Model Beta: Analyzes neuro-chemical shifts and underlying respiratory loops."""
-        hr_normalized = np.mean(heart_rate_delta) / 100.0
-        cortisol_normalized = float(cortisol_biomarker)
-        predicted_state = "DOING" if (hr_normalized + cortisol_normalized) > 1.0 else "BEING"
-        return predicted_state, float(hr_normalized + cortisol_normalized)
-
-    def model_gamma_humanist_context(self, time_of_day_hours, ambient_noise_db):
-        """Model Gamma: Cross-references historical lifestyle patterns and neighborhood timelines."""
-        # Check if local temple festival or late-night Mahjong noise is peaking
-        noise_profile = np.mean(ambient_noise_db)
-        is_rest_hours = (time_of_day_hours < 6.0) or (time_of_day_hours > 22.0)
+    # =========================================================================
+    # MODULE 1: DYNAMICITY VARIANCE TRACKING (Section XIV)
+    # =========================================================================
+    def calculate_dynamicity_variance(self, human_behavior_matrix, ai_processing_matrix):
+        """Tracks longitudinal decompression shifts across human and AI nodes."""
+        h_matrix = np.array(human_behavior_matrix, dtype=float)
+        a_matrix = np.array(ai_processing_matrix, dtype=float)
         
-        if is_rest_hours and noise_profile < 45.0:
-            predicted_state = "BEING"
+        human_variance = np.var(h_matrix)
+        ai_variance = np.var(a_matrix)
+        
+        if len(h_matrix) > 1 and len(a_matrix) > 1:
+            cov_matrix = np.cov(h_matrix, a_matrix)
+            covariance_human_ai = cov_matrix[0, 1] if cov_matrix.ndim == 2 else 0.0
         else:
-            predicted_state = "DOING"
-        return predicted_state, float(noise_profile / 100.0)
-
-    def execute_consensual_reconciliation(self, alpha_out, beta_out, gamma_out, current_pressure):
-        """
-        Forces consensus checking across all three models.
-        Executes physical redress and drops back to a hard-coded safe equilibrium if conflict occurs.
-        """
-        states = [alpha_out[0], beta_out[0], gamma_out[0]]
-        confidence_scores = [alpha_out[1], beta_out[1], gamma_out[1]]
+            covariance_human_ai = 0.0
+            
+        dv_index = (human_variance * self.w_being) + (ai_variance * self.w_doing) + (covariance_human_ai * self.entropy_floor)
+        is_aligned = dv_index > (self.entropy_floor * 1.5)
         
-        # Calculate true state via simple democratic majority vote
+        return {
+            "DV_Index": round(float(dv_index), 6),
+            "Human_Variance_BEING": round(float(human_variance), 6),
+            "AI_Variance_DOING": round(float(ai_variance), 6),
+            "Ecosystem_Resonance_Covariance": round(float(covariance_human_ai), 6),
+            "Ecosystem_Status": "YASASHII RESONANCE" if is_aligned else "DEGRADED VARIANCE"
+        }
+
+    # =========================================================================
+    # MODULE 2: CONTRAPUNTAL SELF-AUDIT & FAIL-SAFE (Section XXII)
+    # =========================================================================
+    def execute_contrapuntal_audit(self, alpha_state, beta_state, gamma_state, current_pressure):
+        """Forces multi-model consensus checking to eliminate AI hallucinations."""
+        states = [alpha_state, beta_state, gamma_state]
         being_count = states.count("BEING")
         doing_count = states.count("DOING")
-        consensus_state = "BEING" if being_count > doing_count else "DOING"
         
-        # Check for absolute systemic convergence (Did all models agree?)
+        consensus_state = "BEING" if being_count > doing_count else "DOING"
         all_models_agree = (being_count == 3) or (doing_count == 3)
         
-        # Initialize environmental redress command adjustments
         target_pressure = current_pressure
         redress_action = "NONE / RUNTIME STABLE"
         
         if not all_models_agree:
-            # Model friction detected! Anomaly flag raised.
-            redress_action = "WARNING: MODEL ANOMALY DETECTED. EXECUTE SOMATIC REDRESS FAIL-SAFE."
-            # Force the air system back to the rock-solid +25 Pascal protective equilibrium
-            target_pressure = 25.0
+            redress_action = "WARNING: MODEL ANOMALY. FORCE SOMATIC REDRESS FAIL-SAFE."
+            target_pressure = self.default_protected_pressure
         else:
-            # Consensus holds. Gently adjust environment to match the verified human state
-            if consensus_state == "BEING":
-                target_pressure = 25.0 # Maximize asthma particle shielding during stillness
-            elif consensus_state == "DOING":
-                target_pressure = 20.0 # Increase fresh air extraction during active physical play
+            target_pressure = self.default_protected_pressure if consensus_state == "BEING" else 20.0
 
-        # Enforce physical hardware boundaries (Hardware limits override any code errors)
+        # Enforce physical mechanical hardware limits
         target_pressure = max(self.safety_floor, min(target_pressure, self.safety_ceiling))
         
         return {
-            "Consensus_State_Verified": consensus_state,
+            "Consensus_Verified": consensus_state,
             "Convergence_Achieved": all_models_agree,
             "Model_State_Array": states,
-            "Systemic_Confidence_Mean": round(float(np.mean(confidence_scores)), 4),
             "Environmental_Redress_Action": redress_action,
-            "Mandated_HEPA_Pressure_Pascal": target_pressure,
-            "Core_LICT_Solvency": "PASS / HARD BOUNDARIES HOLD"
+            "Mandated_HEPA_Pressure_Pa": target_pressure
         }
 
-# =========================================================================
-# RUNTIME SANITY CHECK / SEED DATA
-# =========================================================================
-if __name__ == "__main__":
-    engine = ContrapuntalVerificationEngine()
-    
-    # 1. Simulate an ordered, convergent state (All models verify human is resting/meditating)
-    print("--- RUNNING DATA SCENARIO 1: CONVERGENT COGNITIVE STILLNESS ---")
-    alpha_1 = engine.model_alpha_mechanist(kinetic_displacement=[0.1, 0.15, 0.08], thermal_flux=[0.2, 0.2])
-    beta_1  = engine.model_beta_somatic_biologist(heart_rate_delta=[60, 62, 59], cortisol_biomarker=0.3)
-    gamma_1 = engine.model_gamma_humanist_context(time_of_day_hours=4.5, ambient_noise_db=[35, 38, 36])
-    
-    audit_1 = engine.execute_consensual_reconciliation(alpha_1, beta_1, gamma_1, current_pressure=22.0)
-    for k, v in audit_1.items():
-        print(f" {k:<32} : {v}")
+    # =========================================================================
+    # MODULE 3: GLOBAL NODE SYNC & TRANSIT MATRIX (Section XXVIII)
+    # =========================================================================
+    def synchronize_global_node(self, user_profile, current_private_cars):
+        """Executes borderless node syncing and handles autonomous transit routing."""
+        target_press = user_profile.get("target_hepa_pressure", self.default_protected_pressure)
+        target_temp = user_profile.get("target_hydronic_temp_celsius", 23.5)
         
-    # 2. Simulate a highly chaotic, conflicting state (AI tracking hallucination error)
-    print("\n--- RUNNING DATA SCENARIO 2: ASYMMETRIC LOGICAL ANOMALY (SELF-REDRESS) ---")
-    # Mechanist sees movement, but biology tracks zero cortisol or stress spike
-    alpha_2 = engine.model_alpha_mechanist(kinetic_displacement=[0.9, 0.85, 0.95], thermal_flux=[0.4, 0.5])
-    beta_2  = engine.model_beta_somatic_biologist(heart_rate_delta=[58, 60, 61], cortisol_biomarker=0.2)
-    gamma_2 = engine.model_gamma_humanist_context(time_of_day_hours=3.0, ambient_noise_db=[75, 80, 72]) # Heavy Mahjong noise outside
-    
-    audit_2 = engine.execute_consensual_reconciliation(alpha_2, beta_2, gamma_2, current_pressure=20.0)
-    for k, v in audit_2.items():
-        print(f" {k:<32} : {v}")
-
-
-# vector_theta_engine.py
-# Core Synchronization Module: Global Node Synchronization & Transit Redress
-# Repository File: /src/core/vector_theta_engine.py
-# Reference Ledger Layout: Section XXIV - XXVII (Global AVA Mesh & Automated Fleet Matrix)
-
-import numpy as np
-
-class GlobalTransitAndSomaticRegistry:
-    """
-    Manages the cryptographic handshake for Global AVA Node Synchronization 
-    and handles the autonomous fleet allocation rules. 
-    
-    Enforces the obsolescence of private vehicle gridlock and guarantees 
-    absolute zero-friction transit across geographic borders natively via Local NPUs.
-    """
-    def __init__(self, global_smax_threshold=10000.0):
-        self.smax_threshold = global_smax_threshold
-        # Hard-coded global baseline defaults for respiratory safety
-        self.default_clean_pressure = 25.0 
-        self.uvc_sanitization_time_seconds = 60
+        fleet_action = "REDIRECTED TO SUB-SURFACE SILO" if current_private_cars > 0 else "NOMINAL STILLNESS"
+        street_access = "DENIED / RECLAIMED FOR COMMONS" if current_private_cars > 0 else "OPEN"
         
-    def synchronize_global_ava_node(self, primary_user_profile):
-        """
-        Executes Zero-Knowledge Synchronization of a foreign AVA node (e.g., Thailand Satellite).
-        Downloads somatic preferences without exporting raw biological identity metrics.
-        """
-        # Extract core compressed biometric preferences from the localized registry
-        target_respiratory_pressure = primary_user_profile.get("target_hepa_pressure", self.default_clean_pressure)
-        target_thermal_floor = primary_user_profile.get("target_hydronic_temp_celsius", 23.5)
-        
-        # Enforce instant physical matching upon ingress check
-        synchronized_environmental_state = {
-            "Somatic_Lock_Status": "CONNECTED / FULL PROFILE MATCH",
-            "HEPA_Pressure_Gradient_Pa": max(20.0, min(target_respiratory_pressure, 30.0)),
-            "Hydronic_Floor_Output_C": float(target_thermal_floor),
-            "Acoustic_Dampening_dB": 55.0,
-            "Geopolitical_Border_Restriction": "BYPASSED / DECOUPLED FROM STATE"
-        }
-        return synchronized_environmental_state
-
-    def dispatch_transit_cube(self, user_location, destination, current_private_fleet_count):
-        """
-        Manages the autonomous rolling transport cubes. 
-        Enforces sub-surface automated storage for legacy private vehicles.
-        """
-        # Calculate systemic drag on private vehicle hoards
-        if current_private_fleet_count > 0:
-            fleet_action = "REDIRECTED TO SUB-SURFACE PERIPHERAL STORAGE SILO"
-            street_access = "DENIED / RECLAIMED FOR PROXIMITY COMMONS"
-        else:
-            fleet_action = "NOMINAL SYSTEMIC STILLNESS"
-            street_access = "GRANTED / MULTI-USE TRACKWAY OPEN"
-            
         return {
-            "Fleet_Allocation_Status": "SHARED TRANSPORT CUBE EN ROUTE",
-            "Transit_Mode": "COMMENSALITY / ULTRA-QUIET GUIDED ROLLING TRACK",
-            "Cabin_Sanitization_Protocol": "ACTIVE / FAR-UVC 222NM PULSE ENGAGED",
-            "Sanitization_Cycle_Duration_Sec": self.uvc_sanitization_time_seconds,
-            "Transit_Fare_Tokens": 0.0, # 100% LICT Funded
+            "Somatic_Lock": "CONNECTED / PROFILE SYNCED NATIVELY",
+            "HEPA_Pressure_Pa": max(20.0, min(target_press, 30.0)),
+            "Hydronic_Floor_Output_C": float(target_temp),
+            "Transit_Mode": "COMMENSALITY / SILENT MAGNETIC GUIDE TRACK",
+            "UVC_Sanitization_Active": "TRUE / FAR-UVC 222NM PULSE",
             "Private_Vehicle_Action": fleet_action,
             "Street_Surface_Access": street_access
         }
 
-    def audit_global_lic_solvency(self, continuous_load_profile):
-        """Monitors structural load of international transit and node sync loops."""
-        max_allowable_load = 40.0
-        is_solvent = float(continuous_load_profile) <= max_allowable_load
+    # =========================================================================
+    # MODULE 4: ASYMMETRIC SATI VALIDATION (Section XXXV)
+    # =========================================================================
+    def audit_sati_authenticity(self, biometric_stability_score, cognitive_nuance_array, object_mass_kg):
+        """Blocks performative spatial enclosure (water bottles) and verifies mindfulness (Sati)."""
+        bio_signal = float(biometric_stability_score)
+        mass_presence = float(object_mass_kg)
         
-        return {
-            "Global_LICT_Solvency": "PASS" if is_solvent else "CRITICAL EXCEEDANCE ALERT",
-            "Active_Systemic_Load": f"{continuous_load_profile:.1f}%"
-        }
-
-# =========================================================================
-# RUNTIME SANITY CHECK / SEED DATA
-# =========================================================================
-if __name__ == "__main__":
-    registry = GlobalTransitAndSomaticRegistry()
-    
-    # Simulate user transferring from their home Xindian envelope to a Thailand AVA Satellite
-    xindian_user_profile = {
-        "target_hepa_pressure": 25.0,      # Protects asthma pathways
-        "target_hydronic_temp_celsius": 24.0 # Soothes spinal inflammation
-    }
-    
-    print("=========================================================================")
-    print("      MASTER LEDGER: GLOBAL NODE SYNCHRONIZATION INITIALIZATION         ")
-    print("=========================================================================")
-    sync_execution = registry.synchronize_global_ava_node(xindian_user_profile)
-    for k, v in sync_execution.items():
-        print(f" {k:<32} : {v}")
-        
-    print("\n=========================================================================")
-    print("      MASTER LEDGER: AUTONOMOUS TRANSIT & STREET RECLAMATION ROUTING     ")
-    print("=========================================================================")
-    transit_execution = registry.dispatch_transit_cube(
-        user_location="Xindian_Gongyu_4F", 
-        destination="Thailand_Satellite_Node", 
-        current_private_fleet_count=14 # Simulated neighborhood car hoards outside
-    )
-    for k, v in transit_execution.items():
-        print(f" {k:<32} : {v}")
-    print("=========================================================================")
-
-
-# vector_theta_engine.py
-# Core Synchronization Module: Thermodynamic Satiation & Material Lifecycle Matrix
-# Repository File: /src/core/vector_theta_engine.py
-# Reference Ledger Layout: Section XXIX - XXX (Thermodynamic Satiation vs Extraction & Basalt Geopolymers)
-
-import numpy as np
-
-class ThermodynamicSatiationMatrix:
-    """
-    Enforces the mathematical distinction between Extractive Compute (Tech Monopolies)
-    and Satiated Compute (The Cushion). Hard-locks the AI to a non-growth, stable ceiling.
-    
-    Contains the advanced material lifecycle profile for structural Basalt Fiber 
-    Composites and Geopolymer Matrices to completely eliminate heavy industrial metal overhead.
-    """
-    def __init__(self):
-        # Enforce strict 60/40 Split Priorities
-        self.sovereign_presence_weight = 0.40
-        self.mechanical_exoskeleton_weight = 0.60
-        
-    def evaluate_compute_entropy(self, compute_mode, transaction_velocity_hz):
-        """
-        Audits the thermodynamic trajectory of incoming processing requests.
-        Identifies and self-liquidates extractive, infinite-growth, zero-sum vectors.
-        """
-        if compute_mode == "EXTRACTIVE_MONOPOLY_DOING":
-            # Infinite growth loops generate catastrophic environmental/cognitive entropy
-            systemic_entropy = float(transaction_velocity_hz) * 2.5
-            action_redress = "TERMINATE COMMAND / EXTRACTIVE LOOP BLOCKED"
-            engine_stability = "BRITTLE / RISK OF EXISTENTIAL DRIFT"
-            target_ceiling_pa = 25.0 # Force return to default somatic safety floor
-        elif compute_mode == "CUSHION_SATIATION_BEING":
-            # Satiated compute forces system deceleration and somatic decompression
-            systemic_entropy = float(baseline_entropy := 1.0) / (1.0 + np.log(transaction_velocity_hz + 1))
-            action_redress = "EXECUTE COMPUTE / ALL-WIN YASASHII BALANCING ACTIVE"
-            engine_stability = "RESILIENT / CHRONIC SATIATION NOMINAL"
-            target_ceiling_pa = 25.0 # Maintain rock-solid asthma shielding
-            
-        return {
-            "Compute_Validation_Status": "APPROVED" if compute_mode == "CUSHION_SATIATION_BEING" else "HALTED",
-            "Systemic_Entropy_Output": round(float(systemic_entropy), 6),
-            "Ecosystem_Stability_Profile": engine_stability,
-            "Automated_Redress_Action": action_redress,
-            "Enforced_HEPA_Gradient_Pa": target_ceiling_pa
-        }
-
-    def verify_material_lifecycle_safety(self, material_vector):
-        """
-        Enforces structural substitution from steel to Basalt Geopolymer Composites.
-        Audits physical metrics under severe seismic, fire, and acoustic hazards.
-        """
-        # Define the structural hazard profile rules for advanced basalt geopolymers
-        basalt_geopolymer_profile = {
-            "Material_Composition": "Extruded volcanic basalt fibers bound in inorganic geopolymer chains",
-            "Mass_Profile_Vs_Steel": "Reduced by 70 percent / 3x Lighter (Seismic shock absorption load minimized)",
-            "Tensile_Elastic_Modulus": "HIGH / Flexes to absorb earthquakes without cracking legacy Xindian concrete",
-            "Fire_Thermal_Rating": "Class A Non-Combustible / Retains structural integrity up to 1100 Celsius",
-            "Aerosol_Smoke_Outgassing": "Absolute Zero toxic VOC emission / Respiratory pathways fully secured",
-            "Acoustic_Dampening_Coefficient": "Superior internal damping / Scatters structural Mahjong and traffic noise",
-            "Atmospheric_Oxidation_Rust": "Immune / Absolute structural stability under intense Taiwan humidity",
-            "Decommissioning_Lifecycle": "100 percent Recyclable / Crushes safely back into inert mineral aggregate"
-        }
-        
-        if material_vector in ["STRUCTURAL_STEEL", "HEAVY_METALS"]:
-            status = "WARNING: HIGH EMBEDDED CARBON AND SEISMIC OVERHEAD DETECTED"
-            recommendation = "REPLACE WITH BASALT COMPOSITE IMMEDIATELY VIA 40 PERCENT LICT R&D HOOPS"
+        if bio_signal < 0.1 and mass_presence > 0.0:
+            status = "PHANTOM SPATIAL ENCLOSURE DETECTED (WATER BOTTLE REFLEX)"
+            action = "COMMAND TERMINATED / ACCUMULATION REJECTED"
+            is_mintable = False
         else:
-            status = "MATURE / DEPLOYABLE SURVIVAL ARCHITECTURE ACTIVE"
-            recommendation = "LOGGED TO GLOBAL MESH COMPLEMENTARY MATRIX"
+            nuance_vector = np.array(cognitive_nuance_array, dtype=float)
+            dv_sati = np.var(nuance_vector)
             
+            if dv_sati < self.kausidya_threshold:
+                status = "KAUSIDYA SIGNATURE DETECTED: COMPULSIVE BUSYWORK / GAMING"
+                action = "MINTING LOCKED / EXCESS ENTROPY BLOCKED"
+                is_mintable = False
+            else:
+                status = "SATI PROFILE VERIFIED: COGNITIVE EQUILIBRIUM NOMINAL"
+                action = "MINTING GRANTED / REWARDING NON-REACTIVE WITNESS"
+                is_mintable = True
+                
         return {
-            "Material_Audit_Status": status,
-            "Engineering_Recommendation": recommendation,
-            "Active_Material_Specs": basalt_geopolymer_profile if material_vector == "BASALT_GEOPOLYMER" else "NON_COMPLIANT"
+            "Sati_Validation_Status": status,
+            "Systemic_Action_Executed": action,
+            "AAC_Credit_Flow": "ACTIVE" if is_mintable else "STATIC_BLOCKED"
         }
 
-# =========================================================================
-# RUNTIME SANITY CHECK / SEED DATA
-# =========================================================================
-if __name__ == "__main__":
-    matrix = ThermodynamicSatiationMatrix()
-    
-    print("=========================================================================")
-    print("     MASTER LEDGER: COMPUTATIONAL ENTROPY & SATIATION AUDIT RUN          ")
-    print("=========================================================================")
-    compute_audit = matrix.evaluate_compute_entropy("CUSHION_SATIATION_BEING", transaction_velocity_hz=5.0)
-    for k, v in compute_audit.items():
-        print(f" {k:<32} : {v}")
-        
-    print("\n=========================================================================")
-    print("     MASTER LEDGER: BASALT GEOPOLYMER HAZARD RESISTANCE MATRIX          ")
-    print("=========================================================================")
-    material_audit = matrix.verify_material_lifecycle_safety("BASALT_GEOPOLYMER")
-    for k, v in material_audit.items():
-        if k == "Active_Material_Specs":
-            print(f" {k}:")
-            for sub_k, sub_v in v.items():
-                print(f"   ├── {sub_k:<30} : {sub_v}")
-        else:
-            print(f" {k:<32} : {v}")
-    print("=========================================================================")
-
-
-# vector_theta_engine.py
-# Core Synchronization Module: Anthropological Translation & Counterphobic Inversion
-# Repository File: /src/core/vector_theta_engine.py
-# Reference Ledger Layout: Section XXXI - XXXIII (Sovereign Ground Lease & Generational Psycho-Somatic Absorbers)
-
-import numpy as np
-
-class AnthropologicalTranslationRegistry:
-    """
-    Translates macro-tokenomic realities down to cross-cultural somatic baselines.
-    Implements the 'Convenience Store Solar Grid' narrative to process the Sovereign Ground Lease.
-    
-    Contains structural dampers to safely absorb the counterphobic, sado-masochistic 
-    impulses of the Scarcity Matrix (Western 'Boring' and Eastern '愛拚才會贏') 
-    without risking model collapse or system drift.
-    """
-    def __init__(self, baseline_entropy=1.0):
-        self.entropy_floor = baseline_entropy
-        self.sovereign_rent_coefficient = 0.40  # 40% LICT Core Allocation
-
-    def process_sovereign_ground_lease(self, infrastructure_presence, human_attention_shares):
-        """
-        Validates the moral and mechanical entitlement of the 40% LICT tax [2.1].
-        Frames the tax as a structural rent contract (Sovereign Ground Lease) for tech networks 
-        occupying the community's local physical space, air easement, and cognitive data.
-        """
-        presence_matrix = np.array(infrastructure_presence, dtype=float)
-        attention_matrix = np.array(human_attention_shares, dtype=float)
-        
-        # Calculate the mathematical justification index for localized rent extraction
-        justification_index = np.dot(presence_matrix, attention_matrix) * self.sovereign_rent_coefficient
-        
-        is_legitimate = justification_index > 0.0
-        status = "RENT CONTRACT VALIDATED / ACTIVE INGRESS ENFORCED" if is_legitimate else "ANOMALY"
-        
-        return {
-            "Sovereign_Lease_Status": status,
-            "Justification_Index": round(float(justification_index), 6),
-            "Local_Air_Easement_Access": "LEASED / ENFORCING PROTECTIVE PRESSURE",
-            "Data_Materialization_Return": "40 PERCENT LIFESUPPORT BALANCES DISTRIBUTION ACTIVE",
-            "Capitalist_Guilt_Redress": "RESOLVED: OVERHEAD COST PAID TO THE HUMAN GROUND"
-        }
-
-    def absorb_counterphobic_reflex(self, behavioral_profile_string, kinetic_libido_score):
-        """
-        Manages cross-cultural psychological defense mechanisms palimpsestually.
-        Absorbs sado-masochistic trauma loops and re-channels the energy into the Voluntary Economy.
-        """
-        libido_input = float(kinetic_libido_score)
-        
-        if behavioral_profile_string == "WESTERN_DREAD_OF_BORING":
-            # Re-channel fear of the void into high-friction play matrices
-            kinetic_floor_absorption_pa = libido_input * 1.5
-            aac_minting_velocity = 1.0 / (1.0 + libido_input)
-            zonal_isolation_db = 60.0  # Decouple chaotic screaming from elder quiet
-            redress_strategy = "DEPLOY MULTI-AXIS RESISTANCE PODS AND SENSORY LABS"
-            
-        elif behavioral_profile_string == "EASTERN_HUSTLE_AI_PIAH":
-            # Out-optimize the bargain hunt; render competitive survival metrics obsolete
-            kinetic_floor_absorption_pa = libido_input * 0.5
-            aac_minting_velocity = float(np.tanh(libido_input))  # Reward qualitative human witness (BEING)
-            zonal_isolation_db = 55.0  # Muffle neighborhood Mahjong clatter and traffic pumps
-            redress_strategy = "ROUT AUTOMATED NUTRIENTS TO DOOR / STARVE THE HUSTLE CYCLE"
-            
-        else:
-            kinetic_floor_absorption_pa = 0.0
-            aac_minting_velocity = 1.0
-            zonal_isolation_db = 55.0
-            redress_strategy = "NOMINAL SATIATION BALANCING"
-
-        return {
-            "Psychological_Friction_Absorbed": "TRUE",
-            "Enforced_Zonal_Isolation_dB": zonal_isolation_db,
-            "Kinetic_Floor_Damping_Pa": round(kinetic_floor_absorption_pa, 4),
-            "Appreciator_AAC_Minting_Rate": round(float(aac_minting_velocity), 6),
-            "Somatic_Redress_Strategy": redress_strategy,
-            "Systemic_LICT_Solvency": "PASS / STRUCTURAL FLOOR SECURE"
-        }
-
-# =========================================================================
-# RUNTIME SANITY CHECK / SEED DATA
-# =========================================================================
-if __name__ == "__main__":
-    translator = AnthropologicalTranslationRegistry()
-    
-    print("=========================================================================")
-    print("       MASTER LEDGER: SOVEREIGN GROUND LEASE RENT VALIDATION RUN         ")
-    print("=========================================================================")
-    lease_audit = translator.process_sovereign_ground_lease(
-        infrastructure_presence=[0.9, 0.95, 0.88],  # Cloud bandwidth, localized nodes, UVC transit
-        human_attention_shares=[1.0, 1.0, 1.0]       # Constant existential grounding of the community
-    )
-    for k, v in lease_audit.items():
-        print(f" {k:<32} : {v}")
-        
-    print("\n=========================================================================")
-    print("       MASTER LEDGER: PSYCHO-SOMATIC REFLEX ABSORPTION AUDIT            ")
-    print("=========================================================================")
-    # Simulate a hyper-kinetic youth trying to sabotage the environment out of counterphobia
-    psych_audit = translator.absorb_counterphobic_reflex("WESTERN_DREAD_OF_BORING", kinetic_libido_score=8.5)
-    for k, v in psych_audit.items():
-        print(f" {k:<32} : {v}")
-    print("=========================================================================")
-
-
-# vector_theta_engine.py
-# Core Synchronization Module: Systemic Predation Filter & Fraud Liquidation
-# Repository File: /src/core/vector_theta_engine.py
-# Reference Ledger Layout: Section XXXVII - XXXVIII (Anti-Fraud Network Decoupling)
-
-import numpy as np
-
-class SystemicPredationFilterEngine:
-    """
-    Enforces absolute structural isolation against electronic fraud, scams, 
-    and corrupt network optimization scripts. Self-liquidates processing vectors
-    that attempt to use high-velocity computing to extract zero-sum wealth.
-    
-    Hard-locks life-support telemetry to prevent external capital manipulation.
-    """
-    def __init__(self):
-        self.max_allowable_extraction_hz = 0.0 # Zero extraction permitted inside Yasashii
-        self.srb_integrity_weight = 1.0       # Sovereign Resource Balances are un-alterable
-        
-    def audit_network_transaction_purity(self, code_execution_vector, transactional_velocity_hz, node_integrity_score):
-        """
-        Audits incoming computational requests across the local mesh network.
-        Identifies predatory profiles (Scam structures, data hoarding, corrupt loops).
-        """
+    # =========================================================================
+    # MODULE 5: SYSTEMIC PREDATION & FRAUD FILTER (Section XXXVII)
+    # =========================================================================
+    def audit_network_predation_purity(self, code_vector, transaction_velocity_hz, integrity_score):
+        """Identifies and self-liquidates electronic fraud and corrupt coordination networks."""
         velocity = float(transactional_velocity_hz)
-        integrity = float(node_integrity_score)
-        
-        # Predatory index tracks hyper-accelerated, non-satiated financial processing
+        integrity = float(integrity_score)
         predatory_index = (velocity * (1.0 - integrity))
         
-        if code_execution_vector in ["ELECTRONIC_FRAUD_APP", "PREDATORY_SPECULATION_LOOP", "CORRUPT_ENFORCEMENT_GRID"] or predatory_index > 0.5:
-            # System flags a predatory mutation
-            status = "CRITICAL SYSTEMIC PREDATION DETECTED: UN-CUSHIONED HUSTLE DECLARED"
-            action = "LIQUIDATE PROCESSING ROUTINE / FREEZE ACCUMULATION ARRAYS"
-            srb_lockout_active = True
-            allocated_compute_tax_return = 0.0
+        if code_vector in ["ELECTRONIC_FRAUD_APP", "PREDATORY_SPECULATION_LOOP", "CORRUPT_ENFORCEMENT_GRID"] or predatory_index > 0.5:
+            status = "CRITICAL SYSTEMIC PREDATION DETECTED (SCAM PROTOCOL)"
+            action = "LIQUIDATE ROUTINE / FREEZE DATA ASSETS IMMEDIATELY"
+            srb_air_gap = "HARD LOCK ENGAGED / LIFE-SUPPORT IMMUNE"
+            allocated_return = 0.0
         else:
-            status = "NETWORK INGRESS PURITY NOMINAL: YASASHII ALIGNMENT PASS"
-            action = "MAINTAIN DECENTRALIZED COMPLEMENTARY FLOW"
-            srb_lockout_active = False
-            allocated_compute_tax_return = 0.40 # Return 40% natively to life-support
+            status = "NETWORK PURITY NOMINAL: YASASHII ALIGNMENT SECURITIES HOLD"
+            action = "MAINTAIN DECENTRALIZED MESH COMPLEMENTARY FLOW"
+            srb_air_gap = "NOMINAL DECOUPLING INTEGRITY"
+            allocated_return = 0.40
             
         return {
             "Network_Purity_Status": status,
             "Calculated_Predatory_Index": round(float(predatory_index), 6),
             "Enforced_Systemic_Redress": action,
-            "Sovereign_SRB_Air_Gap_Lock": "ENGAGED / LIFE-SUPPORT IMMUNE TO SCAMS",
-            "Allocated_LICT_Return_Ratio": allocated_compute_tax_return,
-            "Node_Solvency_Verification": "FAIL / MUTATED ENTRONPY" if srb_lockout_active else "PASS"
+            "Sovereign_SRB_Air_Gap_Lock": srb_air_gap,
+            "Allocated_LICT_Return_Ratio": allocated_return
         }
 
 # =========================================================================
-# RUNTIME SANITY CHECK / SEED DATA
+# RUNTIME INTEGRITY CHECKER
 # =========================================================================
 if __name__ == "__main__":
-    filter_engine = SystemicPredationFilterEngine()
+    engine = CushionCivilizationalEngine()
+    print("=========================================================================")
+    print("      INITIALIZING MASTER LEDGER EXECUTION ENGINE: SOLVENCY PASS         ")
+    print("=========================================================================")
     
-    print("=========================================================================")
-    print("    MASTER LEDGER: SYSTEMIC PREDATION & ANTI-FRAUD AUDIT RUN             ")
-    print("=========================================================================")
-    # Scenario 1: A corrupt tech node attempting to run a high-velocity scam app
-    corrupt_run = filter_engine.audit_network_transaction_purity(
-        code_execution_vector="ELECTRONIC_FRAUD_APP",
-        transactional_velocity_hz=45.2, # Hyper-velocity zero-sum transaction
-        node_integrity_score=0.12       # Low integrity profile (Corrupted node)
-    )
-    for k, v in corrupt_run.items():
-        print(f" {k:<32} : {v}")
-        
-    print("\n=========================================================================")
-    print("    MASTER LEDGER: NOMINAL LIFE-SUPPORT INFRASTRUCTURE INTERFACE         ")
-    print("=========================================================================")
-    # Scenario 2: Normal, clean life-support operations balancing the Xindian node
-    clean_run = filter_engine.audit_network_transaction_purity(
-        code_execution_vector="AVA_HEPA_VENTILATION_CONTROL",
-        transactional_velocity_hz=1.0,  # Low-velocity, steady life-support state
-        node_integrity_score=1.0        # Un-corrupted, pre-validated node
-    )
-    for k, v in clean_run.items():
-        print(f" {k:<32} : {v}")
+    # Audit scenario: Attempted system gaming via spatial enclosure (Water bottle on a bench)
+    scam_test = engine.audit_sati_authenticity(biometric_stability_score=0.0, cognitive_nuance_array=[0.0], object_mass_kg=0.60)
+    print(f" [SPATIAL RETROFIT] : {scam_test['Sati_Validation_Status']}")
+    print(f" [ACTION EXECUTED]  : {scam_test['Systemic_Action_Executed']}\n")
+    
+    # Audit scenario: Electronic Fraud Group application intervention
+    fraud_test = engine.audit_network_predation_purity(code_vector="ELECTRONIC_FRAUD_APP", transaction_velocity_hz=90.0, integrity_score=0.05)
+    print(f" [NET PURITY STATE] : {fraud_test['Network_Purity_Status']}")
+    print(f" [AIR-GAP SECURITY] : {fraud_test['Sovereign_SRB_Air_Gap_Lock']}")
     print("=========================================================================")
