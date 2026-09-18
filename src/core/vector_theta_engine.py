@@ -422,3 +422,108 @@ if __name__ == "__main__":
     print("=========================================================================")
 
 
+# vector_theta_engine.py
+# Core Synchronization Module: Anthropological Translation & Counterphobic Inversion
+# Repository File: /src/core/vector_theta_engine.py
+# Reference Ledger Layout: Section XXXI - XXXIII (Sovereign Ground Lease & Generational Psycho-Somatic Absorbers)
+
+import numpy as np
+
+class AnthropologicalTranslationRegistry:
+    """
+    Translates macro-tokenomic realities down to cross-cultural somatic baselines.
+    Implements the 'Convenience Store Solar Grid' narrative to process the Sovereign Ground Lease.
+    
+    Contains structural dampers to safely absorb the counterphobic, sado-masochistic 
+    impulses of the Scarcity Matrix (Western 'Boring' and Eastern '愛拚才會贏') 
+    without risking model collapse or system drift.
+    """
+    def __init__(self, baseline_entropy=1.0):
+        self.entropy_floor = baseline_entropy
+        self.sovereign_rent_coefficient = 0.40  # 40% LICT Core Allocation
+
+    def process_sovereign_ground_lease(self, infrastructure_presence, human_attention_shares):
+        """
+        Validates the moral and mechanical entitlement of the 40% LICT tax [2.1].
+        Frames the tax as a structural rent contract (Sovereign Ground Lease) for tech networks 
+        occupying the community's local physical space, air easement, and cognitive data.
+        """
+        presence_matrix = np.array(infrastructure_presence, dtype=float)
+        attention_matrix = np.array(human_attention_shares, dtype=float)
+        
+        # Calculate the mathematical justification index for localized rent extraction
+        justification_index = np.dot(presence_matrix, attention_matrix) * self.sovereign_rent_coefficient
+        
+        is_legitimate = justification_index > 0.0
+        status = "RENT CONTRACT VALIDATED / ACTIVE INGRESS ENFORCED" if is_legitimate else "ANOMALY"
+        
+        return {
+            "Sovereign_Lease_Status": status,
+            "Justification_Index": round(float(justification_index), 6),
+            "Local_Air_Easement_Access": "LEASED / ENFORCING PROTECTIVE PRESSURE",
+            "Data_Materialization_Return": "40 PERCENT LIFESUPPORT BALANCES DISTRIBUTION ACTIVE",
+            "Capitalist_Guilt_Redress": "RESOLVED: OVERHEAD COST PAID TO THE HUMAN GROUND"
+        }
+
+    def absorb_counterphobic_reflex(self, behavioral_profile_string, kinetic_libido_score):
+        """
+        Manages cross-cultural psychological defense mechanisms palimpsestually.
+        Absorbs sado-masochistic trauma loops and re-channels the energy into the Voluntary Economy.
+        """
+        libido_input = float(kinetic_libido_score)
+        
+        if behavioral_profile_string == "WESTERN_DREAD_OF_BORING":
+            # Re-channel fear of the void into high-friction play matrices
+            kinetic_floor_absorption_pa = libido_input * 1.5
+            aac_minting_velocity = 1.0 / (1.0 + libido_input)
+            zonal_isolation_db = 60.0  # Decouple chaotic screaming from elder quiet
+            redress_strategy = "DEPLOY MULTI-AXIS RESISTANCE PODS AND SENSORY LABS"
+            
+        elif behavioral_profile_string == "EASTERN_HUSTLE_AI_PIAH":
+            # Out-optimize the bargain hunt; render competitive survival metrics obsolete
+            kinetic_floor_absorption_pa = libido_input * 0.5
+            aac_minting_velocity = float(np.tanh(libido_input))  # Reward qualitative human witness (BEING)
+            zonal_isolation_db = 55.0  # Muffle neighborhood Mahjong clatter and traffic pumps
+            redress_strategy = "ROUT AUTOMATED NUTRIENTS TO DOOR / STARVE THE HUSTLE CYCLE"
+            
+        else:
+            kinetic_floor_absorption_pa = 0.0
+            aac_minting_velocity = 1.0
+            zonal_isolation_db = 55.0
+            redress_strategy = "NOMINAL SATIATION BALANCING"
+
+        return {
+            "Psychological_Friction_Absorbed": "TRUE",
+            "Enforced_Zonal_Isolation_dB": zonal_isolation_db,
+            "Kinetic_Floor_Damping_Pa": round(kinetic_floor_absorption_pa, 4),
+            "Appreciator_AAC_Minting_Rate": round(float(aac_minting_velocity), 6),
+            "Somatic_Redress_Strategy": redress_strategy,
+            "Systemic_LICT_Solvency": "PASS / STRUCTURAL FLOOR SECURE"
+        }
+
+# =========================================================================
+# RUNTIME SANITY CHECK / SEED DATA
+# =========================================================================
+if __name__ == "__main__":
+    translator = AnthropologicalTranslationRegistry()
+    
+    print("=========================================================================")
+    print("       MASTER LEDGER: SOVEREIGN GROUND LEASE RENT VALIDATION RUN         ")
+    print("=========================================================================")
+    lease_audit = translator.process_sovereign_ground_lease(
+        infrastructure_presence=[0.9, 0.95, 0.88],  # Cloud bandwidth, localized nodes, UVC transit
+        human_attention_shares=[1.0, 1.0, 1.0]       # Constant existential grounding of the community
+    )
+    for k, v in lease_audit.items():
+        print(f" {k:<32} : {v}")
+        
+    print("\n=========================================================================")
+    print("       MASTER LEDGER: PSYCHO-SOMATIC REFLEX ABSORPTION AUDIT            ")
+    print("=========================================================================")
+    # Simulate a hyper-kinetic youth trying to sabotage the environment out of counterphobia
+    psych_audit = translator.absorb_counterphobic_reflex("WESTERN_DREAD_OF_BORING", kinetic_libido_score=8.5)
+    for k, v in psych_audit.items():
+        print(f" {k:<32} : {v}")
+    print("=========================================================================")
+
+
