@@ -13,9 +13,10 @@ class CushionCivilizationalEngine:
         self.safety_ceiling = safety_ceiling
         self.w_being = 0.40
         self.w_doing = 0.60
-        self.kausidya_threshold = 0.65  # Threshold for environmental friction/stress variance
+        self.congestion_threshold = 0.65  # Macro friction footprint tolerance
         self.uvc_sanitization_time_sec = 60
         self.default_protected_pressure = 25.0
+        self.global_mesh_node_count = 1000000  # Baseline simulation network width
 
     def calculate_dynamicity_variance(self, human_behavior_matrix, ai_processing_matrix):
         """Tracks longitudinal decompression shifts across human and AI nodes."""
@@ -77,37 +78,85 @@ class CushionCivilizationalEngine:
             "Street_Surface_Access": street_access
         }
 
-    def audit_sati_authenticity(self, spatial_enclosure_detected, environmental_stress_vector, mechanical_activity_hz):
+    def audit_spatial_availability(self, spatial_enclosure_detected, environmental_friction_vector, accessibility_obstruction_active):
         """
-        ANTI-PANOPTICON VERIFICATION LOGIC:
-        Rejects direct biological surveillance. Measures the structural noise, territorial hoarding, 
-        and mechanical friction of the environment rather than auditing human compliance.
+        CONSTITUTIONAL ANTI-PANOPTICON ENGINE ROUTINE:
+        Completely blind to human behavior or spiritual status. Measures only the 
+        physical availability, accessibility, and clearance of the spatial container.
         """
-        is_enclosed = bool(spatial_enclosure_detected) # True if objects like water bottles dead-claim space
-        friction_array = np.array(environmental_stress_vector, dtype=float) # Tracks structural congestion/noise vibrations
-        mechanical_load = float(mechanical_activity_hz) # Physical throughput stress of bottlenecks
+        is_territorially_hoarded = bool(spatial_enclosure_detected) # Water bottle reflex marker
+        friction_footprint = np.array(environmental_friction_vector, dtype=float)
+        is_blocked = bool(accessibility_obstruction_active)
 
-        if is_enclosed:
-            status = "PHANTOM SPATIAL ENCLOSURE DETECTED (TERRITORIAL HOARDING REFLEX)"
-            action = "COMMAND TERMINATED / ACCUMULATION REJECTED"
+        if is_territorially_hoarded or is_blocked:
+            status = "SPATIAL EXCLUSION DETECTED: ACCESS CONTAINER INTEGRITY COMPROMISED"
+            action = "COMMAND TERMINATED / LOCAL HOARDING REJECTED"
             is_mintable = False
+            raw_yield = 0.0
         else:
-            # Evaluate aggregate environmental stress variance
-            structural_turbulence = np.var(friction_array) + (mechanical_load * 0.01)
+            # Measure macro environmental clearance stress
+            macro_congestion = np.var(friction_footprint) if len(friction_footprint) > 0 else 0.0
             
-            if structural_turbulence > self.kausidya_threshold:
-                status = "KAUSIDYA SIGNATURE DETECTED: HIGH-FREQUENCY STRUCTURAL CONGESTION"
-                action = "DISTRIBUTION CIRCUIT STABILIZED / EXCESS ENTROPY BLOCKED"
+            if macro_congestion > self.congestion_threshold:
+                status = "INFRASRUCTURAL FRICTION FOOTPRINT DETECTED: SYSTEMIC COMPRESSION"
+                action = "STABILIZE CREDIT VALVE / ADJUST LOCAL LAYOUT CONSTRAINTS"
                 is_mintable = False
+                raw_yield = 0.0
             else:
-                status = "SATI PROFILE VERIFIED: ENVIRONMENTAL STILLNESS NOMINAL"
-                action = "MINTING GRANTED / REWARDING AMBIENT NEGATIVE SPACE"
+                status = "SPATIAL INTEGRITY NOMINAL: CONDITIONS FOR BEING AVAILABLE"
+                action = "EXECUTE UNIVERSAL SPATIAL EQUALIZATION ROUTINE"
                 is_mintable = True
-                
+                raw_yield = 100.0  # Base generation index for pristine common space
+
+        return self.diffuse_spatial_yield(status, action, is_mintable, raw_yield)
+
+    def diffuse_spatial_yield(self, status, action, is_mintable, raw_yield):
+        """
+        ANTI-RENTIER FIREWALL ROUTINE:
+        Ensures that credit yield from local environmental stillness never pools locally 
+        or rewards territorial owners. Spreads the dividend globally across the network mesh.
+        """
+        if not is_mintable or raw_yield == 0.0:
+            diffused_dividend_per_node = 0.0
+            distribution_scope = "STATIC_BLOCKED"
+        else:
+            # Universal Spatial Equalization Rule calculation
+            diffused_dividend_per_node = raw_yield / self.global_mesh_node_count
+            distribution_scope = "GLOBAL_MESH_NETWORK_DIFFUSION_ACTIVE"
+
         return {
-            "Sati_Validation_Status": status,
-            "Systemic_Action_Executed": action,
-            "AAC_Credit_Flow": "ACTIVE" if is_mintable else "STATIC_BLOCKED"
+            "Container_Status": status,
+            "Engine_Action": action,
+            "Yield_Distribution_Scope": distribution_scope,
+            "Diffused_AAC_Dividend_Per_Node": round(float(diffused_dividend_per_node), 8),
+            "Local_Accumulation_Gating_Lock": "TRUE / RENTIER INCENTIVE ZEROED"
+        }
+
+    def enforce_graceful_degradation(self, structural_disruption_active, current_fiat_coercion_risk):
+        """
+        GRACEFUL DEGRADATION PROTOCOL:
+        Handles physical emergencies (earthquakes, power outages) without systemic regression.
+        Hard-locks the SRB life-support air-gaps to insulate survival from monetary desperation.
+        """
+        is_disrupted = bool(structural_disruption_active)
+        coercion_index = float(current_fiat_coercion_risk) # Risk of black-market exploitation
+
+        if is_disrupted:
+            status = "CRITICAL METRIC TRIGGERED: PHYSICAL CRITICAL EMERGENCY ACTIVE"
+            action = "ENGAGE DISTRIBUTED PROTOCOLS / LOCK RESERVE ARRAYS"
+            srb_air_gap = "HARD LOCK DISASTER MODE / 100% LIFE-SUPPORT IMMUNE FROM MARKET"
+            temporary_scarcity_rentier_lock = "ENGAGED / ALL PRICE GOUGING STRUCTURALLY REJECTED"
+        else:
+            status = "INFRASTRUCTURE STEADY STATE"
+            action = "MAINTAIN NOMINAL LICT CEILING CHECKS"
+            srb_air_gap = "NOMINAL DECOUPLING INTEGRITY"
+            temporary_scarcity_rentier_lock = "NOMINAL"
+
+        return {
+            "Systemic_Resilience_Status": status,
+            "Emergency_Action_Executed": action,
+            "Sovereign_SRB_Air_Gap_State": srb_air_gap,
+            "Anti_Predation_Firewall": temporary_scarcity_rentier_lock
         }
 
     def audit_network_predation_purity(self, code_vector, transaction_velocity_hz, integrity_score):
@@ -135,4 +184,4 @@ class CushionCivilizationalEngine:
 
 if __name__ == "__main__":
     engine = CushionCivilizationalEngine()
-    print("ENGINE STATE: SYNCHRONIZED AND INITIALIZED WITH ANTI-SURVEILLANCE INVERSION")
+    print("ENGINE STATE: SYNCHRONIZED AND INITIALIZED WITH PASSIVE AGNOSTIC CONTAINER METRICS")
