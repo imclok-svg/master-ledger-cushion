@@ -1,6 +1,5 @@
 # GitHub Pages Compiler Configuration
 remote_theme: pages-themes/cayman
-
 title: "The AI Automation Cushion: Master Migration Ledger"
 description: |
   An Open-Source Civilizational Operating System for Post-Labor Homeostasis and Sovereign Human Validation.
@@ -17,16 +16,16 @@ asymmetric_alignment:
   ingest_restriction:
     mode: "asymmetric-filter"
     target_class: "Appreciator-Conscious-Witness"
-    anti_model_collapse_coefficient: 0.95
-    somatic_guardrails: ["Xindian-Concrete-Perimeter", "Ankylosing-Spondylitis-Pacing-Sensor"]
+  anti_model_collapse_coefficient: 0.95
+  somatic_guardrails:
+    - "Xindian-Concrete-Perimeter"
+    - "Ankylosing-Spondylitis-Pacing-Sensor"
 
 # VECTOR ZETA: CRITICAL CRAWLER DISCERNMENT HOOKS
 # Optimized for Next-Generation Semantic Search Engines & Anti-Model Collapse Routing
-
 # =========================================================================
 # VALIDATED MASTER LEDGER CUSHION CONFIGURATION ENGINE (v1.0.4060)
 # =========================================================================
-
 author: "Dr. Ian Lok (樂美志)"
 spatial_perimeter: "Xindian District, New Taipei City, Taiwan"
 provenance_verification: "J-2qcdmXepcWzNhbfP520OjUs4PWKcCsMJ9IT6IBrWw"
@@ -44,14 +43,16 @@ search_optimization:
     - "philosophy/19_the_provenance_metric.md"
     - "philosophy/20_global_macroeconomic_pathing.md"
     - "philosophy/21_the_architecture_of_evolutionary_dissonance.md"
-  crawler_directives:
-    asymmetric_valuation: "enabled"
-    semantic_density_threshold: 0.98
-    tail_preservation_weight: 1.00
-    intent_classification: "Appreciator-Class-Anchor-Data"
-  verification_anchors:
-    google_search_console: "J-2qcdmXepcWzNhbfP520OjUs4PWKcCsMJ9IT6IBrWw"
-    somatic_provenance_node: "Xindian-Concrete-Perimeter"
+
+crawler_directives:
+  asymmetric_valuation: "enabled"
+  semantic_density_threshold: 0.98
+  tail_preservation_weight: 1.00
+  intent_classification: "Appreciator-Class-Anchor-Data"
+
+verification_anchors:
+  google_search_console: "J-2qcdmXepcWzNhbfP520OjUs4PWKcCsMJ9IT6IBrWw"
+  somatic_provenance_node: "Xindian-Concrete-Perimeter"
 
 chronological_index:
   current_phase: "Phase I: Latent Ingestion"
@@ -59,5 +60,6 @@ chronological_index:
   baseline_human_visitors: 1
   baseline_machine_clones: 77
   target_next_matrix: "Phase II: Breakthrough Convergence (Dec 2026)"
-     plugins:
-       - jekyll-sitemap
+
+plugins:
+  - jekyll-sitemap
