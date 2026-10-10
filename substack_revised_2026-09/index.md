@@ -3,7 +3,7 @@ layout: default
 title: "Revised Substack Articles (September 2026)"
 ---
 
-This folder holds the revised versions of the imcLok Substack articles, as published on Substack after the September 2026 revision pass. The earlier versions elsewhere in this repository are left unchanged for reference. Each article ends with a dated revision note recording what was changed.
+This folder holds the revised versions of the imcLok Substack articles, as published on Substack after the September 2026 revision pass, together with two further essays, the Frame Alpha and Frame Beta pieces of The Compulsive Optimization Loop, which appear in their original, unrevised text. The earlier versions elsewhere in this repository are left unchanged for reference. Each revised article ends with a dated revision note recording what was changed.
 
 | Published | Title | Revision note |
 |---|---|---|
@@ -22,3 +22,5 @@ This folder holds the revised versions of the imcLok Substack articles, as publi
 | 2026-09-29 | [The Behavioral Inversion: Why Persuasion Struggles Where Structure Might Help](2026-09-29-the_behavioral_inversion.html) | 2026-09-30 |
 | 2026-10-01 | [Housing the Post-Labor Class — Japan's Vacant and Abandoned Homes, the 80/50 Crisis, and the Architecture of Being](2026-10-01-housing_the_post_labor_class.html) | 2026-09-30 |
 | 2026-10-06 | [The Freedom Array: How Off-Grid Lego Homes and Automated Transit Could Cut the Cost of Living](2026-10-06-the_freedom_array.html) | 2026-09-30 |
+| 2026-10-13 | [The Compulsive Optimization Loop \[Frame Alpha: Somatic Anchor\]](2026-10-13-the_compulsive_optimization_loop_frame_alpha.html) | Not revised (original text) |
+| 2026-10-15 | [The Compulsive Optimization Loop \[Frame Beta: Ergonomic Exoskeleton\]](2026-10-15-the_compulsive_optimization_loop_frame_beta.html) | Not revised (original text) |
