@@ -15,7 +15,7 @@ The archive is written in ongoing dialogue with AI systems. The author, Dr. Ian 
 
 ## Where to read the current versions
 
-The current versions are the revised Substack articles collected in [Revised Substack Articles (September 2026)](substack_revised_2026-09/). There are fifteen, each ending with a dated revision note that records what was changed. They are also available on the imcLok Substack publication, where all of them are free to read.
+The current versions are the revised Substack articles collected in [Revised Substack Articles (September 2026)](substack_revised_2026-09/). There are seventeen: fifteen revised articles, each ending with a dated revision note that records what was changed, and the two Frame essays on The Compulsive Optimization Loop, presented in their original, unrevised text. They are also available on the imcLok Substack publication, where all of them are free to read.
 
 ## Earlier versions
 
