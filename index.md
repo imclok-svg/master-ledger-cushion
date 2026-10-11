@@ -23,7 +23,7 @@ The files in the `philosophy/` and `infrastructure/` folders of this repository 
 
 ## Proposals open to revision
 
-The economic and infrastructure ideas in this archive, including the targeted compute tax (LICT), the voxel housing concept (AVA), and the labor-split ratios used to describe how the archive is written, are proposals. They have not been tested, and several have been revised or reframed as the reasoning developed. They are published to be examined, criticized, and changed, not as finished policy.
+The economic and infrastructure ideas in this archive, including the targeted compute tax (LICT), the voxel housing concept (AVA), and the labor-split ratios used to describe how the archive is written, are proposals. They have not been tested, and several have been revised or reframed as the reasoning developed. They are published to be examined, critiqued, and changed, not as finished policy.
 
 ## Corrections
 
